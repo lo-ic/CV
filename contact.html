@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Styles_CV.css">
+    <title>Contact</title>
+
+    <nav class="one">
+            <img src="logo.png" class="logo-one">
+            <ul>
+                    <li><a class="active" href="#home"></a></li>
+                    <li><a href="index.html">CV</a></li>
+                    <li><a href="presentation.html">Vidéo</a></li>
+                    <li><a href="hobby.html">Hobby</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="fond.jpg" id="fond" alt="">
+</head>
+
+
+
+
+<body>
+    <h1>Me contacter</h1>
+    <div class="container">
+<div class="boxcontact">
+            <form action=" ​https://httpbin.org/post" method="post" >
+    <div>
+        <input type="radio" id="genre" name="drone" value="Madame" checked>
+        <label for="genre">Madame</label>
+
+        <input type="radio" id="genre" name="drone" value="Monsieur">
+        <label for="genre">Monsieur</label>
+    </div>
+
+
+
+
+<div class="champ">
+    <label for="Votre Pays">Votre Pays</label>
+    <select name="Pays" id="Pays">
+        <option value="Pays">France</option>
+        <option value="Pays">Belgique</option>
+        <option value="Pays">Suisse</option>
+    </select>
+    </div>    
+
+    <div>
+        <label for="Name">Nom :</label>
+        <input type="text" id="Name" name="user_name" placeholder="saisissez nom"> 
+    </div>
+    <div>
+        <label for="mail">E-mail</label>
+        <input type="email" id="mail" name="user_mail" placeholder="saisissez mail">
+    </div>
+    <div>
+    <label for="msg">Commentaire :</label>
+    <textarea id="msg" name="user_message" placeholder="votre message"></textarea>
+    </div>
+            </form>
+        </div>
+    </div>
+<input type="submit" value="Envoyer">
+<input type="reset" value="Annuler"> 
+</body>
+</html>
